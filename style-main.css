@@ -1,0 +1,657 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: Anjhay;
+    src: url(fonts/Anjhay.otf);
+}
+
+@font-face {
+    font-family: Carlo;
+    src: url(fonts/Carlo.otf);
+}
+
+.container{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+}
+
+.astro{
+    font-family: Anjhay;
+    font-size: 40px;
+    color: #20201F;
+}
+
+.logo-img{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.woman{
+    font-family: Anjhay;
+    font-size: 40px;
+    color: #20201F;
+}
+
+.login{
+    display: flex;
+    width: 90px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #B6772D;
+    color: #B6772D;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 89%;
+}
+
+.login:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border: 2px solid  #B6772D;
+}
+
+.login:focus{
+    box-shadow: black 0px 0px 5px 2px;
+    transition: 0.3s;
+}
+
+.login-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.astrology-for-woman{
+    font-family: Carlo;
+    font-size: 84px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.astrology-for-woman-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #20201F;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    line-height: 34px;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+.choose-item{
+    width: 330px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #B6772D;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    transition: 0.5s;
+    min-width: 270px;
+    text-decoration: none;
+}
+
+.choose-item:hover{
+    color: #B6772D;
+    background-color: black;
+    box-shadow: #B6772D 0px 0px 0px 2px;
+    transition: 0.5s;
+}
+
+.choose-item:nth-child(2){
+    margin-left: 30px;
+}
+
+.choose-item:nth-child(3){
+    margin-left: 30px;
+}
+
+.chose-img{
+
+}
+
+.choose-text{
+    font-size: 30px;
+    font-family: Carlo;
+}
+
+.daily-horoscope{
+    font-size: 46px;
+    color: #20201F;
+    font-family: Carlo;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.main-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.main-imgs-item{
+    margin-top: 30px;
+    width: 240px;
+    height: 260px;
+    transition: 0.4s;
+}
+
+.main-imgs-item:hover{
+    box-shadow: #B6772D 0px 0px 2px 2px;
+    transition: 0.4s;
+}
+
+.brown-div{
+    background: #CCC7B9;
+    height: 280px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.daily-affirmation{
+    background: #2C2C2C;
+    margin-top: 40px;
+}
+
+.daily-affirmation-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+}
+
+.daily-affirmation-text{
+    display: flex;
+    flex-direction: column;
+    width: 677px;
+    justify-content: space-between;
+}
+
+.daily-affirmation-text-img{
+
+}
+
+.daily-affirmation-text-h{
+    color: #F0D9D9;
+    font-size: 60px;
+    font-family: Carlo;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+    
+}
+
+.daily-affirmation-text-p{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 34px;
+    margin-top: 30px;
+}
+
+.daily-affirmation-show-more{
+    width: 320px;
+    height: 60px;
+    border: 2px solid #FDD1D1;
+    color: #FDD1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.daily-affirmation-show-more:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    box-shadow: black 0px 0px 4px 3px;
+}
+
+.daily-affirmation-show-more-text{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.daily-affirmation-right-div{
+    background: #FDD1D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 350px;
+}
+
+.daily-affirmation-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.daily-affirmation-right-img{
+    
+}
+
+.daily-affirmation-right-text{
+    text-align: center;
+    color: #000000;
+    font-family: Carlo;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 163.69%;
+    margin-top: 45px;
+}
+
+.brown-div-second{
+    background: #CCC7B9;
+    height: 280px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.articles-p{
+    font-size: 46px;
+    color: #20201F;
+    font-family: Carlo;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+}
+
+
+.articles-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 540px;
+    text-decoration: none;
+}
+
+.articles-img{
+    width: 540px;
+    height: 300px;
+    transition: 0.4s;
+}
+
+.articles-img:hover{
+    box-shadow: black 0px 0px 4px 2px;
+    transition: 0.4s;
+}
+
+
+.article-text-href{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.article-text{
+    text-transform: capitalize;
+    font-size: 26px;
+    line-height: 35px;
+    color: #20201F;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+
+
+.arrow-1 {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 0px;
+    margin: 20px;
+    margin-top: 15px;
+}
+.arrow-1 div {
+    position: relative;
+    top: 20px;
+    width: 90px;
+    height: 2px;
+    background-color: #B6772D;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    left:0;
+    display: block;
+}
+.arrow-1 div::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: -5px;
+    right: -3px;
+    background-color: #B6772D;
+    transform: rotate(35deg);
+}
+.arrow-1 div::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 5px;
+    right: -3px;
+    background-color: #B6772D;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+    transform: rotate(-35deg);
+}
+.arrow-1:hover {
+    animation: arrow-1 1s linear infinite;
+}
+@keyframes arrow-1 {
+    0% {
+        left:0;
+    }
+    50% {
+        left:10px;
+    }
+    100% {
+        left:0;
+    }
+}
+
+.show-more-article-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.show-more-article{
+    width: 320px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #B6772D;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.show-more-article:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border: 2px solid  #B6772D;
+}
+
+.show-more-article:focus{
+    box-shadow: black 0px 0px 5px 2px;
+    transition: 0.3s;
+}
+
+.show-more-article-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #B6772D;
+}
+
+.footer{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-site{
+    
+}
+
+.about-site-item{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   color: #B6772D;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-decoration: none;
+   transition: 0.5s;
+
+}
+
+.about-site-item:hover{
+    color: black;
+    transition: 0.5s;
+
+}
+
+.about-site-item:nth-child(2){
+    margin-left: 30px;
+}
+
+.about-site-item:nth-child(3){
+    margin-left: 30px;
+}
+
+.site{
+   margin: 0px;
+   padding: 0px;
+   margin-top: 30px;
+   color: #20201F;
+   opacity: 0.7;
+   font-size: 16px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.popup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.log-in-window-container, .sign-up-window-container{
+    width: 375px;
+    height: 290px;
+    background: #FDD1D1;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+    animation: showDiv 0.5s alternate;
+}
+
+@keyframes showDiv {
+    from {opacity: 0.1}
+  to {opacity: 1}}
+
+
+.sign-up-window-container{
+    width: 375px;
+    height: 360px;
+}
+
+
+.log-in-window, .sign-up-window{
+    display: flex;
+    flex-direction: column;
+    margin: 27px;
+    width: 100%;
+}
+
+.authentication-login, .sign-up{
+    text-align: center;
+    text-transform: capitalize;
+    color: #20201F;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.enter-email-login, .lorem{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #20201F;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-login, .form-sign-up{
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     width: 100%;
+}
+
+.email-login, .email-sign-up-name, .email-sign-up-mail{
+    outline: none;
+    border: none;
+     width: width: 98.7%;
+     height: 60px;
+     color: #D2D2D2;
+     font-size: 18px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.email-sign-up-mail{
+    margin-top: 10px;
+}
+
+.login-button, .sign-up-button{
+     width: 100%;
+     height: 60px;
+     background: #B6772D;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #FFFFFF;
+     margin-top: 10px;
+     border: none;
+     transition: 0.5s;
+     cursor: pointer;
+     text-decoration: none;
+}
+
+.sign-up-button:hover{
+    color: #B6772D;
+    background-color: black;
+    box-shadow: #B6772D 0px 0px 0px 2px;
+    transition: 0.5s;
+}
+
+.login-button:hover{
+    color: #B6772D;
+    background-color: black;
+    box-shadow: #B6772D 0px 0px 0px 2px;
+    transition: 0.5s;
+}
+
+.sign-up-button-text, .login-button-text{
+     font-weight: 600;
+     font-size: 24px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.sign-up-in-login-p, .login-p{
+     margin: 0px;
+     padding: 0px;
+     margin-top: 10px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     text-align: center;
+     color: #20201F;
+     text-transform: capitalize;
+
+}
+
+.sign-up-in-login-href, .login-href{
+     text-decoration: none;
+}
+
+.sign-up-in-login-text, .log-in-text{
+      color: #B6772D;
+}

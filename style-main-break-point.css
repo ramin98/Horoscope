@@ -1,0 +1,556 @@
+@media only screen and (max-width: 1320px){
+    .articles-div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .article-text{
+        text-transform: capitalize;
+        font-size: 20px;
+        line-height: 35px;
+        color: #20201F;
+        margin: 0px;
+        padding: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 15px;
+    }
+
+    .article-item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 440px;
+    }
+
+    .articles-img{
+        width: 440px;
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 1120px){
+
+    .choose{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .choose-item{
+        margin-top: 40px;
+        width: 70%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        background-color: #B6772D;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #FFFFFF;
+        transition: 0.5s;
+    }
+
+    .choose-item:nth-child(2){
+        margin-left: 0px;
+    }
+    
+    .choose-item:nth-child(3){
+        margin-left: 0px;
+    }
+    
+    .main-imgs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .daily-affirmation{
+        background: #2C2C2C;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    .daily-affirmation-row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .daily-affirmation-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .daily-affirmation-text-h{
+        color: #F0D9D9;
+        font-size: 40px;
+        font-family: Carlo;
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+        text-align: center;
+        width: 80%;
+    }
+
+    .daily-affirmation-text-p{
+        color: #FFFFFF;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        line-height: 34px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .daily-affirmation-right-div{
+
+        background: #FDD1D1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .daily-affirmation-right{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .daily-affirmation-right-text{
+        text-align: center;
+        color: #000000;
+        font-family: Carlo;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        line-height: 163.69%;
+        margin-top: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .articles-div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .article-text{
+        text-transform: capitalize;
+        font-size: 20px;
+        line-height: 35px;
+        color: #20201F;
+        margin: 0px;
+        padding: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 15px;
+    }
+
+    .article-item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 340px;
+    }
+
+    .articles-img{
+        width: 340px;
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 920px){
+    
+    .articles-div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    
+    .logo-login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+
+    .login{
+        display: flex;
+        width: 90px;
+        height: 35px;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 2px solid #B6772D;
+        color: #B6772D;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+
+    .daily-affirmation-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    
+    .container{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .daily-affirmation-show-more{
+        width: 100%;
+        height: 40px;
+        border: 2px solid #FDD1D1;
+        color: #FDD1D1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+
+    .daily-affirmation-right-img{
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .astrology-for-woman{
+        font-family: Carlo;
+        font-size: 38px;
+        line-height: 60px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .container{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .astrology-for-woman-text{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #20201F;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .choose{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;       
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .choose-item{
+        width: 110px;
+        height: 110px;
+        display: flex;
+        background-color: #B6772D;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: #FFFFFF;
+        transition: 0.5s;
+        min-width: 110px;
+    }
+
+    .choose-item:nth-child(2){
+        margin-left: 0px;
+    }
+    
+    .choose-item:nth-child(3){
+        margin-left: 0px;
+    }
+    
+    .chose-img{
+    
+    }
+    
+    .choose-text{
+        font-size: 16px;
+        line-height: 16px;
+        font-family: Carlo;
+    }
+
+    .daily-horoscope{
+        font-size: 26px;
+        color: #20201F;
+        font-family: Carlo;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-imgs-item{
+        margin-top: 30px;
+        width: 160px;
+        height: 170px;
+        margin-left: 15px;
+    }
+    
+    .daily-affirmation{
+        background: #2C2C2C;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        
+    }
+
+    .daily-affirmation-row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+
+    .daily-affirmation-right-text{
+        text-align: center;
+        color: #000000;
+        font-family: Carlo;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        line-height: 163.69%;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .daily-affirmation-text-h{
+        color: #F0D9D9;
+        font-size: 39px;
+        font-family: Carlo;
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+        text-align: left;
+        width: 100%;
+    }
+
+    .daily-affirmation-text-p{
+        color: #FFFFFF;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        line-height: 26px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .brown-div-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brown-div{
+        background: #CCC7B9;
+        height: 280px;
+        width: 70%;
+        margin-top: 40px;
+        
+    }
+
+    .brown-div-container-second{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .brown-div-second{
+        background: #CCC7B9;
+        height: 280px;
+        width: 70%;
+        margin-top: 40px;
+        
+    }
+
+    .article-text{
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 22px;
+        color: #20201F;
+        margin: 0px;
+        padding: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 15px;
+    }
+
+    .arrow-1 {
+        margin-top: 8px;
+        height: 0px;
+        width: 50px;
+    }
+
+    .arrow-1 div {
+        position: relative;
+        top: 20px;
+        width: 60px;
+        height: 2px;
+        background-color: #B6772D;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+        left:30;
+        display: block;
+    }
+    .arrow-1 div::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: -5px;
+        right: -3px;
+        background-color: #B6772D;
+        transform: rotate(35deg);
+    }
+    .arrow-1 div::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        top: 5px;
+        right: -3px;
+        background-color: #B6772D;
+        box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+        transform: rotate(-35deg);
+    }
+
+    .articles-p{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 28px;
+    }
+
+    .logo-login{
+       
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .articles-div{
+       margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-imgs{
+        
+        
+        margin-right: 15px;
+    }
+
+    .article-item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 340px;
+    }
+
+    .show-more-article{
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footer{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .show-more-article-div{
+        margin-top: 20px;
+    }
+
+    .articles-img{
+        width: 340px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+.choose{
+    margin-left: 10px;
+    margin-right: 10px;
+      
+}
+
+.choose-item{
+ 
+        min-width: 100px;
+   
+}
+
+.articles-img {
+    width: 310px;
+    height: 150px;
+}
+
+.article-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 310px;
+}
+
+    }
